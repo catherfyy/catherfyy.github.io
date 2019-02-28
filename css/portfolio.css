@@ -1,0 +1,158 @@
+/*!
+ * Start Bootstrap - 3 Col Portfolio (https://startbootstrap.com/template-overviews/3-col-portfolio)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-3-col-portfolio/blob/master/LICENSE)
+ */
+
+body {
+  font-family:Open Sans,Verdana-light，Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+html {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -ms-overflow-style: scrollbar;
+}
+
+
+
+.navbar-default .navbar-nav{
+    text-align: center;
+    float: none;
+    font-size:20px;
+    color:#5a5a5a;
+}
+
+.navbar-default .navbar-nav li{
+    display: inline-block;
+    float: none;
+
+}
+
+
+.nav> li > a {
+    font-family:Open Sans,Verdana-light;Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size:20px;
+    color:#7e7c7f;
+    padding-bottom:60px;
+}
+
+
+.nav > li > a:hover{
+  background: none;
+  color: #FA877E;
+}
+
+.nav > li > a:focus{
+  background: none;
+  color: #5a5a5a;
+  font-weight:bold;
+}
+
+.nav > li > a:active{
+  background: none;
+  color: #5a5a5a;
+  font-weight:bold;
+}
+
+.Intron{
+	font-size:24px;
+    color:#5a5a5a;
+    padding:40px;
+    font-family:Open Sans,Calibri;Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.MyName{
+	color:#FA877E;
+	font-family:Open Sans,Calibri;Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.card-title{
+	font-size:16px;
+    color:#5a5a5a;
+    padding:5px 0px 0px 0px;
+    margin:0px;
+}
+.card-text{
+	font-size:14px;
+    color:#7e7c7f;
+    padding:5px 0px 0px 0px;
+    margin:0px;
+    font-weight: 300
+}
+.card-body{
+    height: 80px;
+}
+
+.card-body2{
+    height: 40px;
+}
+
+.card-title2{
+    font-size:16px;
+    color:#5a5a5a;
+    padding:10px 0px 0px 10px;
+    margin:0px;
+    
+ }
+
+.widget-title{
+	font-size:16px;
+    color:#5a5a5a;
+}
+
+p.widget-text{
+	font-size:14px;
+    color:#5a5a5a;
+}
+
+.divider-d{
+    padding:10px;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.pagination {
+  margin-bottom: 30px;
+}
+.Last{
+    font-size:14px;
+    color:#9f9f9f;
+    text-align: center;
+    padding-top:60px;
+    padding-bottom:40px;
+}
+
+.Title{
+padding-top:40px;
+color::#9f9f9f;
+}
+
+.Subtitle{
+padding-bottom: 30px;
+color:#5a5a5a;
+}
+
+.Contentitle{
+padding-top:40px;
+color::#9f9f9f;}
+
+
+.img-responsive {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  }
+  
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FA877E' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+.carousel-control-next-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FA877E' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+#myChart {
+background-color: light yellow;
+border:1px black solid;}
+

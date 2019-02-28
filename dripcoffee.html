@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link href="css/portfolio.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="js/main2.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.js"></script> 
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script>
+     var myChart = new Chart({...})
+    </script>   
+</head>
+<body>
+
+ <nav class="navbar navbar-custom navbar-transparent" role="navigation">
+        
+          <div class="navbar-left" align="left">
+            <a class="navbar-home" href="index.html"style="padding-left:10px;padding-top:40px;"><img src="images/icon.png" alt="icon" width="80" height="80"></a>
+          </div>
+
+         
+ </nav>
+
+<main class="project detail">
+
+    <section class="project title">
+    <div class="container" align="center">
+		<div class="Title"><h1>Drip Coffee</h1></div>
+		<div class="Subtitle"><h4>User Research+Product Design</h4></div>
+	</div>
+	
+
+	
+	<div class="container" align="center">
+    		<table class="table table-bordered ">
+     		<thead style="vertical-align: middle;text-align: center；">
+      		<tr>
+        		<th  width="25%" class="text-center" style="border:none" >MY ROLES</th>
+        		<th  width="25%" class="text-center" style="border:none">DATE</th>
+        		<th  width="25%" class="text-center" style="border:none">METHODS</th>
+        		<th  width="25%" class="text-center" style="border:none">TOOLS</th>
+       		</tr>
+     		</thead>
+     		<tbody style="vertical-align: middle;text-align: center；">
+      		<tr>
+        		<td class="text-center" style="border:none;">UX Designer</td>
+        		<td class="text-center" style="border:none;cellpadding:5px;">March 2017 - May 2017</td>
+        		<td class="text-center" style="border:none;cellpadding:5px;">5W1H</td>
+        		<td class="text-center" style="border:none;cellpadding:5px;">Rhino</td>
+        		</tr>
+      		<tr>
+        		<td class="text-center" style="border:none;cellpadding:5px;">Product Designer</td>
+        		<td class="text-center" style="border:none;cellpadding:5px;"></td>
+        		<td class="text-center" style="border:none;cellpadding:5px;">User Research</td>
+        		<td class="text-center" style="border:none;cellpadding:5px;">Hand made</td>
+      		</tr>
+    		</tbody>
+  			</table>
+		</div>
+	</section>
+	
+	
+    <section class="market">
+    
+	<div class="container">
+	<div class="Contentitle"><h5>Market Research</h5></div>
+	<br>
+	</div>
+	
+	<div class="chart">		
+		<div class="container">
+			<div class="row">
+    			<div class="col-md-8">
+				<canvas id="myChart1" width="200" height="100"></canvas>
+				<script>
+				var ctx = document.getElementById("myChart1");
+				var myChart = new Chart(ctx, {
+    				type: 'bar',
+    				data: {
+        				labels: ["欧美", "芬兰瑞典", "日韩", "中国"],
+        				datasets: [{
+            				label: '# コーヒー消費量',
+            				  data: [500,1000,200,30],
+				    		  backgroundColor: [
+                				'rgba(255, 99, 132, 0.2)',
+                				'rgba(54, 162, 235, 0.2)',
+                				'rgba(255, 206, 86, 0.2)',
+                				'rgba(75, 192, 192, 0.2)',
+             
+           				 ],
+            				borderColor: [
+                				'rgba(255,99,132,1)',
+                				'rgba(54, 162, 235, 1)',
+                				'rgba(255, 206, 86, 1)',
+                				'rgba(75, 192, 192, 1)',
+           
+            				],
+           				 borderWidth: 1
+        				}]
+    				},
+    				options: {
+        				scales: {
+            				yAxes: [{
+                				ticks: {
+                		   		 beginAtZero:true
+                				}
+           		 		}]
+       				 }
+    				}
+				});
+				</script>
+			</div>
+
+	<div class="col-md-4">
+		<div class="widget">
+                  <h4 class="widget-title font-alt">一部の国家珈琲消費量統計<h4> 
+                  <h5 class="widget-title font-alt">国内総人口通年消費量<h5>              
+                   <p class="widget-text">データによって、欧米の消費ははるかにリードしている。中国の珈琲市場はまだ萌芽状態になる。<p>
+                </div>
+				</div>
+
+</div>
+</div>
+</div>
+
+   <div class="container">
+      <div class="row">
+      <br>
+      <br>
+      </div>
+    </div>
+
+
+<div class="chart2">		
+<div class="container">
+	<div class="row">
+    	<div class="col-md-8">
+		<canvas id="myChart2" width="200" height="100"></canvas>
+		<script>
+		var ctx = document.getElementById("myChart2");
+		var myChart2 = new Chart(ctx, {
+    		type: 'bar',
+    		data: {
+        		labels: ["2015", "2020", "2025"],
+        		datasets: [{
+            		label: '# 億円',
+            		data: [700,3200,10000],
+            		backgroundColor: [
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)'
+             
+           		 ],
+            		borderColor: [
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)'
+           
+            		],
+           		 borderWidth: 1
+        		}]
+    		},
+    		options: {
+        		scales: {
+            		yAxes: [{
+                		ticks: {
+                		    beginAtZero:true
+                		}
+           		 }]
+       		 }
+    		}
+		});
+		</script>
+	</div>
+
+	<div class="col-md-4">
+		<div class="widget">
+                  <h5 class="widget-title font-alt">中国珈琲消耗量同期増長<h5> 
+                  <h5 class="widget-title font-alt">2015~2025中国珈琲市场ニーズ<h5>              
+                   <p class="widget-text">データによって、中国珈琲市場のニーズは未来に飛躍的な可能性がある。中国の市場は潜在的な成長力を持っている。</p>
+                </div>
+				</div>
+
+		</div>
+	</div>
+	</div>
+
+
+    <div class="container">
+	<!--<img class="img-responsive center-block" src="images/1.png" alt="market1">-->
+	</div>
+	</section>
+	
+	<section class="5W1H">
+	
+	  <div class="container">
+			<div class="Contentitle"><h5>5W1H Analyze</h5>
+		</div>
+			<br>
+		</div>
+		<div class="container" align="center">
+			<div class="row">
+    		<table class="table" width="100%">
+    		<thead class="thead-light">
+       		    <th width="10%"></th>
+        		<th width="15%">What</th>
+        		<th width="15%">Why</th>
+        		<th width="15%">Where</th>
+        		<th width="15%">When</th>
+        		<th width="15%">Who</th>
+        		<th width="15%">How</th>
+     		 </tr>
+    		</thead>
+    		<tbody>
+      		<tr>
+        		<td width="10%">现状</td>
+        		<td width="15%">珈琲器具</td>
+        		<td width="15%">個人的に使う・生活品質を高まる</td>
+        		<td width="15%">台所</td>
+        		<td width="15%">朝起きた時・休憩の時・もてなう</td>
+        		<td width="15%">珈琲熱中者</td>
+        		<td width="15%">いくつかの珈琲器具を使う</td>
+      		</tr>
+     		<tr>
+        		<td width="10%">理由</td>
+        		<td width="15%">珈琲のオリジナルなにを発揮する</td>
+       		    <td width="15%">自らの達成感</td>
+       		    <td width="15%">使わない時に飾り物になれる</td>
+        		<td width="15%">元気になれる・気分転換</td>
+        		<td width="15%">自分で操作する時いい感じになる</td>
+        		<td width="15%">伝統的な方式、繰り返すの練習が必要</td>
+     		 </tr>
+     		 </tbody>
+     		 </table>
+     </div>
+     </div>
+    <div class="container">
+	<!--<img class="img-responsive center-block" src="images/1.png" alt="market1">-->
+	</div>
+     </section>
+     
+     	 
+      <section class="user">
+     	 <div class="container">
+	    <div class="Contentitle"><h5>User Research</h5>
+		</div>
+			<br>
+		</div>
+		
+        <div class="container">
+             <img class="img-responsive center-block" src="images/dripcoffee/user.png" alt="user">
+            </div>
+          </div>
+        </section>
+        
+   	 
+      <section class="user">
+     	 <div class="container">
+	    <div class="Contentitle"><h5>Image Map</h5>
+		</div>
+			<br>
+		</div>
+       <div class="container">
+         <img class="img-responsive center-block" src="images/dripcoffee/map.png" alt="map">
+	       <div class="Content" style="padding-top:20px;text-align:center"><p>市場の中で既存の製品を分析して、スタイルによって分類して、そしてフォームを作る。</p></div>
+	   </div>
+     </section>
+     
+        <section class="user">
+     	 <div class="container">
+	    <div class="Contentitle"><h5>Sketches</h5>
+		</div>
+			<br>
+		</div>
+       <div class="container">
+         <img class="img-responsive center-block" src="images/dripcoffee/sketch.png" alt="sketch1">
+	       <div class="Content" style="padding-top:20px;"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p></div>
+	   </div>
+     </section>
+		
+		
+      
+         <section class="user">
+     	 <div class="container">
+	    <div class="Contentitle"><h5>Production process</h5>
+		</div>
+			<br>
+		</div>
+       <div class="container">
+         <img class="img-responsive center-block" src="images/dripcoffee/process.png" alt="process">
+	       <div class="Content" style="padding-top:20px;"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p></div>
+	   </div>
+       </section>   
+     
+ 
+        <section class="user">
+     	 <div class="container">
+	    <div class="Contentitle"><h5>Product Display</h5>
+		</div>
+			<br>
+		</div>
+       <div class="container">
+	       <div class="Content" style="padding-top:20px;"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p></div>
+	     <img class="img-responsive center-block" src="images/dripcoffee/display02.png" alt="display02">
+	     <br>
+	   </div>
+       </section> 
+       <img class="img-responsive center-block" src="images/dripcoffee/display03.png" alt="display03">
+       	<br>
+	   <br>
+       <footer>
+       <div class="container">
+        <div class="foot-nav">
+        <div class="previous-nav" style="float:left;" >       
+         <a href="#" class="previous" align="left"><i class="fa fa-chevron-circle-left" style="font-size:36px;color:#5a5a5a;"></i></a>
+        <span> Weixin</span>
+        </div>
+        <div class="next-nav" style="float:right;">
+        <span> Weixin</span>
+       <a href="#" class="next" align="right"><i class="fa fa-chevron-circle-right" style="font-size:36px;color:#5a5a5a;"></i></a>
+       </div>
+       </div>
+       </div>
+       </footer>
+       
+
+     
+     
+     
+    		
+</main>
+
+</body>
+</html>
